@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- css -->
+<link rel="stylesheet" href="./css/home.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- slick slider link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <link href="http://cdn.jsdelivr.net/jquery.slick/1.5.5/slick.css" rel="stylesheet" />
+  <link href="http://cdn.jsdelivr.net/jquery.slick/1.5.5/slick-theme.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="http://cdn.jsdelivr.net/jquery.slick/1.5.5/slick.min.js"></script>
+  <!-- font family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&family=Open+Sans&display=swap"
+    rel="stylesheet" />
+
+  <title>E-Learning</title>
+</head>
+
+<body>
+
+ 
+  <!-- navbar -->
+  <section class="hero__section">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent pt-3">
+      <div class="container top__navbar">
+        <a class="navbar-brand " href="#"><img class=" navbar-logo" src="./assects/images/navbar__logo.png"
+            alt="" /></a>
+
+        <button class="btn rounded-pill px-3 mx-2  d-lg-none" type="submit">
+          STARTEN
+        </button>
+
+        <button class="navbar-toggler w-25" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class=""> <img class="" src="./assects/logos/toogler-button.png" alt="" ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll text-dark">
+            <li class="nav-item pl-3">
+              <a class="nav-link active home-link" aria-current="page" href="#">
+                <span class="d-lg-none"><img style="width: 35px; height: 35px; margin-right: 6px;" class="img-fluid "
+                    src="./assects/logos/navbar_home1.png" alt=""></span> <span class=" d-none d-lg-block"
+                  style="color: #01b598;">HOME </span> <span class="d-lg-none " style="color: white;">HOME</span> </a>
+            </li>
+            <li class="nav-item px-lg-2">
+              <a class="nav-link" href="#"> <span class="d-lg-none"><img
+                    style="width: 40px; height: 40px; margin-right: 6px;" class="img-fluid "
+                    src="./assects/logos/navbar-icon1.png" alt=""></span> BLOG</a>
+            </li>
+            <li class="nav-item px-lg-2">
+              <a class="nav-link" href="#"> <span class="d-lg-none"><img
+                    style="width: 40px; height: 40px; margin-right: 6px;" class="img-fluid "
+                    src="./assects/logos/navbar-icon2.png" alt=""></span> ABOUT</a>
+            </li>
+            <li class="nav-item px-lg-2">
+              <a class="nav-link" href="#"> <span class="d-lg-none"><img
+                    style="width:40px; height: 40px; margin-right: 6px;" class="img-fluid "
+                    src="./assects/logos/navbar-icon3.png" alt=""></span> KURSE</a>
+            </li>
+            <li class="nav-item px-lg-2">
+              <a class="nav-link" href="#"> <span class="d-lg-none"><img
+                    style="width: 40px; height: 40px; margin-right: 6px;" class="img-fluid "
+                    src="./assects/logos/navbar-icon4.png" alt=""></span> PREISE</a>
+            </li>
+            <li class="nav-item px-lg-2">
+              <a class="nav-link" href="#"> <span class="d-lg-none"><img
+                    style="width: 40px; height: 40px; margin-right: 6px;" class="img-fluid "
+                    src="./assects/logos/navbar-icon5.png" alt=""></span> LOGIN</a>
+            </li>
+            <button class="btn rounded-pill px-4 py-2 mx-2 d-none d-lg-block" type="submit" style="font-family: Montserrat; font-weight: 500;">
+              STARTEN
+            </button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- show case area  -->
+    <div class="container px-3 pt-4 pt-lg-0 show__case">
+      <div class="row pb-lg-5">
+        <div class="col-lg-6">
+          <h3 class="text-white ">
+            Erlerne das Wissen und die Fähigkeiten für die Technologien von
+            morgen.
+          </h3>
+          <p style="color: #67d3c1; font-family: 'Open Sans', sans-serif" class="mb-lg-5 mb-4">
+            Mit den Online-Kursen von nobreakpoints hast du die Möglichkeit
+            eindrucksvolle 3D, Virtual und Augmented Reality Anwendungen zu
+            erstellen!
+          </p>
+          <div class="d-flex mb-5 show-case-button">
+            <button class="btn rounded-pill mx-md-2 px-md-4   py-md-3  py-2 " type="submit" sty>
+              Kurse ansehen
+            </button>
+            <button class="btn1 rounded-pill mx-md-3  px-md-4  py-2  py-md-3" type="submit">
+              Jetzt loslegen
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-md-5">
+          <img src="./assects/images/hero-section-image.png" class="img-fluid w-100 d-none d-md-block" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- our supporters -->
+  <div class="container supporters__logos mt-3 ">
+    <div class="row text-center  mt-lg-5 mt-3 d-flex justify-content-between">
+      <div class="col-4 text-lg-start">
+        <img class="img-fluid " src="./assects/images/MainPage-Logo1.png" alt="" />
+      </div>
+      <div class="col-4">
+        <img class="img-fluid pt-lg-3 pt-1 mt-2 " src="./assects/images/MainPage-Logo2.png" alt="" />
+      </div>
+      <div class="col-4 tex-lg-end">
+        <img class="img-fluid " src="./assects/images/MainPage-Logo3.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <!-- video tutorials section  -->
+  <div class="tutorials">
+    <div class="container px-4">
+      <div class="row mt-lg-5">
+        <div class="col-md-6 mt-lg-5 tutorials__content">
+          <h5>Hochwertiges Wissen</h5>
+          <h3 class="mb-lg-4">
+            Keine langweiligen "Hello World"-Tutorials.
+          </h3>
+          <p>
+            Du hast keine Lust auf langweilige „Hello-World“-Tutorials, bei
+            denen du ohnehin nicht viel lernst?
+          </p>
+          <p>
+            Wir fokussieren uns auf die wichtigen Dinge bei der Erstellung von
+            3D, Virtual und Augmented Reality Anwendungen. Angefangen bei den
+            Grundlagen bis hin zu fortgeschrittenem Wissen lernst du alles,
+            was dafür nötig ist.
+          </p>
+          <button class="btn2 card__btn rounded-pill my-4 mx-md-3 px-md-3 py-2 d-none d-md-block" type="submit">
+            Kurse ansehen
+          </button>
+        </div>
+        <div class="col-md-6 videos g-3 d-none d-md-block py-3 class videos-content " style="margin: 4rem 0 4rem 0;">
+          <div class="row mt-lg-5 video-animation" >
+            <div class="col-lg-6 first_video me-lg-2">
+              <img src="./assects/images/video1 (2).png" alt="" />
+            </div>
+            <div class="col-sm-5 second-video ps-0">
+              <img src="./assects/images/video2.png" alt="" />
+            </div>
+          </div>
+
+          <div class="row mt-4 video-animation2" >
+            <div class="col-sm-12">
+              <img style="width: 275px;" class="img-fluid w-50 ms-3" src="./assects/images/caurosal__image.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <!--1st slider  -->
+        <section id="slick-content" class="d-md-none container px-4-fluid">
+          <div class="slider">
+            <div>
+              <div class="slide-h3"> <img class="img-fluid " src="./assects/images/caurosal__image.png" alt="" ></div></div>
+            <div><div class=" slide-h3"> <img class="img-fluid " src="./assects/images/video2.png" alt="" ></div></div>
+            <div><div class=" slide-h3"> <img class="img-fluid " src="./assects/images/video1 (2).png" alt="" ></div></div>
+          </div>
+          <div class=" d-md-none d-flex justify-content-center ">
+          <button class=" btn2 card__btn rounded-pill my-4 mx-md-3 px-md-3 py-2 d-md-none" type="submit">
+                Kurse ansehen
+                </button>
+              </div>
+        </section>
+      </div>
+      <button
+        class="btn2 rounded-pill py-2 py-lg-3 mx-md-3 px-md-3 order-sm-2 w-75 d-flex mx-auto d-none text-center align-items-center my-3"
+        type="submit">
+        Kurse ansehen
+      </button>
+    </div>
+  </div>
+  </div>
+  <!-- end -->
+  <!-- unity instructor section -->
+  <section class=" mt-lg-5 unity__section">
+    <div class="container px-4">
+      <div class="d-flex flex-sm-row flex-column">
+        <div class="order-2 order-sm-1  d-flex">
+          <img class="img-fluid w-75 m-auto unity" src="./assects/images/unity__logo.png" alt="" />
+        </div>
+
+        <div class="mt-5 order-1 order-sm-2">
+          <h5>Zertifizierte Experten</h5>
+          <h3  class="mb-lg-4 mb-3">
+            Wissen von zertifizierten <br />
+            Experten..
+          </h3>
+          <p>
+            Alle Kurse auf der nobreakpoints Lernplattform werden von
+            zertifizierten Experten erstellt.
+          </p>
+          <p>
+            Egal, ob Einsteiger oder fortgeschrittener Entwickler. Du wirst
+            Schritt-für-Schritt lernen eindrucksvolle und atemberaubende 3D,
+            Virtual und Augmented Reality Anwendungen zu erstellen.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about me -->
+  <section class=" about__me">
+    <div class="container px-4 pt-lg-5 ">
+      <div class="d-flex flex-sm-row flex-column justify-content-center content__aboutme">
+
+        <div class="mt-lg-5 mt-3 pe-md-4 ">
+          <h4 class="text-center text-sm-start mt-5 mt-lg-5 mb-lg-4 me-lg-4">
+            Hi, mein Name ist Michael.
+            Ich werde dich durch alle
+            Lektionen führen!
+          </h4>
+          <p class="pe-lg-5 me-lg-5">
+            Du lernst Schritt-für-Schritt, wie du deine eigenen 
+            Projekte und Anwendungen erstellen kannst.
+          </p>
+          <p>
+            Starten wir noch heute gemeinsam!
+          </p>
+          <hr style="width: 90%; height: 2px; background-color: white; border: 2px solid #FFFFFF;" class="mb-lg-4 mb-2">
+
+          <div class="d-flex w-75 justify-content-between my-lg-4 my-3 my-sm-0  mx-auto mx-sm-0 fw-bold">
+            <div class="courses">
+              <h5>30+ <br> Kurse</h5>
+            </div>
+            <div class="courses">
+              <h5>13.000+ <br> Abonnenten</h5>
+            </div>
+            <div class="courses">
+              <h5>10+ <br>
+                Jahre</h5>
+            </div>
+          </div>
+        </div>
+        <div class=" w-100 d-flex">
+          <img class="img-fluid  mx-auto micheal__image" src="./assects/images/micheeal.png" alt="" />
+        </div>
+      </div>
+    </div>
+   
+    <div class="d-flex my-2 pb-5  my-lg-5 m-auto certified-brands justify-content-center">
+      <div class="certified-logo">
+        <img class="img-fluid " src="./assects/images/banner1.png" alt="" >
+      </div>
+      <div class="certified-logo">
+        <img class="img-fluid " src="./assects/images/banner2.png" alt="" >
+      </div>
+      <div class="">
+        <img class="img-fluid  " src="./assects/images/banners3.png" alt="" >
+      </div>
+
+    </div>
+    </div>
+  </section>
+  <!--  Kategorien & Kurse section -->
+  <section class="Kurse__section my-3">
+    <div class="container ">
+      <div class="row">
+        <div class="col-12 mb-md-3 mb-3">
+          <h4 class="text-center text-sm-start Kurse_heading ">Kategorien & Kurse section</h4>
+        </div>
+      </div>
+      <div class="row my-lg-4 gap-md-5 mx-3 mx-lg-0 ">
+        <div class="col-md-5 d-flex my-2 my-lg-3 ">
+          <img class="img-fluid " src="./assects/images/icon1.png" alt="">
+          <div class="">
+            <h4 style="color: #074051;" class="ps-3">Unity Basics</h4>
+            <p class="pe-md-3 ps-3 ">Erlerne die Grundlagen von Unity und bereite dich auf die anderen Kategorien vor.</p>
+          </div>
+        </div>
+
+        <div class="col-md-5 d-flex  justify-content-between my-2 my-lg-3 ms-lg-5 ">
+          <img class="img-fluid w-50" src="./assects/images/icon2.png" alt="">
+          <div class="">
+            <h4 class="ps-3" style="color: #074051;">Game Development</h4>
+            <p class="pe-md-3 ps-3">Erstelle ab sofort deine eigenen Videospiele in 2D, 3D, VR oder sogar AR. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container  ">
+      <div class="row  my-md-4 gap-md-5 mx-3 mx-lg-0">
+        <div class="col-md-5 d-flex my-2 my-lg-3 me-lg-5 ">
+          <img class="img-fluid w-50" src="./assects/images/icon3.png" alt="">
+          <div class="">
+            <h4 style="color: #074051;" class="ps-3">Virtual Reality (VR)</h4>
+            <p class="pe-md-3 ps-3">Erlerne alle Fähigkeiten für die Entwicklung von Virtual Reality Anwendungen. </p>
+          </div>
+        </div>
+
+        <div class="col-md-5 d-flex  justify-content-between my-2 my-lg-3 ">
+          <img class="img-fluid w-50" src="./assects/images/icon4.png" alt="">
+          <div class=" ">
+            <h4 style="color: #074051;" class="ps-3">Augmented Reality (AR)</h4>
+            <p class=" ps-3 mb-0">Starte jetzt und erweitere die Realität mit Hilfe von eigenen AR Anwendungen. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Kategorien & Kurse  cards -->
+  <section>
+    <div class="container  px-4 card__section">
+      <div class="row m-3 g-5 text-center justify-content-center d-none d-md-flex card__section">
+        <!-- Kategorien & Kurse  ist card -->
+        <div class="card col-md-4  border-0 g-5 Kurse-Card  " style="background-color: #E6F8F5; padding: 0 !important; border-radius: 15px;">
+          <img src="./assects/images/card1.png" class="card-img-top w-100" alt="...">
+          <div class="card-body rounded-4">
+            <h5 class="card-title mb-2 mb-lg-5 mt-3 text-start">Oculus VR in Unity</h5>
+            <div class="d-flex justify-content-between">
+              <span> <i><img src="./assects/logos/colck-icon.png" alt="" style="width: 25px;"></i> 1h 3min</span>
+              <span> <i><img src="./assects/logos/network-icon.png" alt="" style="width: 25px;"></i> 1h 3min</span>
+            </div>
+          </div>
+        </div>
+        <!-- Kategorien & Kurse  2nd card -->
+        <div class="card col-md-4  border-0 Kurse-Card " style="background-color: #E6F8F5; padding: 0 !important; border-radius: 15px; ">
+          <img src="./assects/images/card2.png" class="card-img-top w-100" alt="...">
+          <div class="card-body rounded">
+            <h5 class="card-title  mb-2 mb-lg-5  mt-3 text-start">Oculus VR in Unity</h5>
+            <div class="d-flex justify-content-between">
+              <span> <i><img src="./assects/logos/colck-icon.png" alt="" style="width: 25px;"></i> 1h 3min</span>
+              <span> <i><img src="./assects/logos/network-icon.png" alt="" style="width: 25px;"></i> 1h 3min</span>
+            </div>
+          </div>
+        </div>
+        <!--Kategorien & Kurse  3rd card -->
+        <div class="card col-md-4  border-0 Kurse-Card " style="background-color: #E6F8F5; padding: 0 !important; border-radius: 15px;">
+          <img src="./assects/images/card3.png" class="card-img-top w-100" alt="...">
+          <div class="card-body rounded">
+            <h5 class="card-title  mb-2 mb-lg-5  mt-3 text-start">Oculus VR in Unity</h5>
+            <div class="d-flex justify-content-between">
+              <span> <i><img src="./assects/logos/colck-icon.png" alt="" style="width: 25px;"></i> 1h 3min</span>
+              <span> <i><img src="./assects/logos/network-icon.png" alt="" style="width: 25px;"></i> 1h 3min</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="card__btn rounded-pill py-lg-3 py-2 px-lg-5 px-3 d-none d-md-block my-3 border-0" type="submit">
+        Kurse ansehen
+      </button>
+  </div>
+  </section>
+  <!-- slider start -->
+  <section id="slick-content" class="d-md-none container px-4-fluid">
+    <div class="slider">
+      <div>
+        <div class="slide-h3"> <img class="img-fluid " src="./assects/images/caurosal1.png" alt="" style="width: 260px; height: 250px;"></div>
+      </div>
+      <div>
+        <div class="slide-h3"> <img class="img-fluid " src="./assects/images/caurosal2.png" alt="" style="width: 260px; height: 250px;"></div>
+      </div>
+      <div>
+        <div class="slide-h3"> <img class="img-fluid " src="./assects/images/caurosal3.png" alt="" style="width: 260px; height: 250px;"></div>
+      </div>
+    </div>
+    <div class="w-100 d-flex justify-content-center mt-3">
+      <button class="card__btn slider__button rounded-pill py-2 py-lg-3 px-3 d-md-none border-0 my-3 " type="submit">
+        Kurse ansehen
+      </button>
+    </div>
+  </section>
+  <!-- slider end-->
+  <!-- Plattformunabhängig section -->
+  <section class="Plattformunabhängig w-100 " style=" margin-bottom: 20px;">
+    <div class="container px-4 pb-lg-5">
+      <div class="row">
+        <div class="col-md-6 order-2 order-sm-1 pe-lg-5 community" style=" margin-top: 20px;">
+          <h5 style="color: #074051;">Plattformunabhängig</h5>
+          <h3>Erstelle Anwendungen
+            plattformunabhängig.</h3>
+          <p>Du möchtest eine Anwendung gleichzeitig für PC,
+            Smartphone, Tablet, VR-Brille oder HoloLens erstellen?</p>
+          <p>
+            Kein Problem! Alle Kurse sind vollkommen plattform-
+            unabhängig und einer Veröffentlichung auf mehreren
+            Plattformen steht nichts im Wege.
+          </p>
+          <button class="card__btn rounded-pill py-lg-3 py-2 px-lg-5  mx-md-3 px-md-3 px-3 my-3" type="submit">
+            Jetzt loslegen!
+          </button>
+        </div>
+        <div class="col-md-6 order-1 order-sm-2 ps-lg-5 Plattformunabhängig__image mb-lg-5" style=" margin-top: 20px;">
+          <img class="img-fluid w-100" src="./assects/images/Group 141 (1).png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Community section -->
+  <section class="Plattformunabhängig pb-lg-5" style=" background: white; margin-bottom: 20px;">
+    <div class="container px-4">
+      <div class="row ">
+        <div class="col-md-6  Plattformunabhängig__image mb-lg-5 pe-lg-5" style=" margin-bottom: 20px; margin-top: 10px;">
+          <img class="img-fluid w-100" src="./assects/images/Group 141 (2).png" alt="">
+        </div>
+        <div class="col-md-6 ps-lg-5 community">
+          <h5 style="color: #074051;">Community</h5>
+          <h3>Stelle deine Fragen an
+            die Community.</h3>
+          <p>Auf der Lernplattform wird für dich ein Forum
+            freigeschaltet, auf dem du dich mit der Community
+            austauschen kannst.
+          </p>
+          <p>
+
+            Nicht nur wir bei nobreakpoints, sondern auch die
+            Community, steht dir mit Rat & Tat zur Seite.
+            Nutze das Wissen fortgeschrittener Entwickler, um
+            einfach und schnell an dein Ziel zu gelangen.
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Zukunftstechnologien section -->
+  <section class="Plattformunabhängig" style=" margin-bottom: 20px;">
+    <div class="container px-4 py-lg-4 pb-lg-4">
+      <div class="row ">
+        <div class="col-md-6 order-1 community pe-lg-5" style=" margin-top: 20px;">
+          <h5 style="color: #074051;">Zukunftstechnologien</h5>
+          <h3>Lerne die Technologien
+            von morgen.</h3>
+          <p>Die Technologien von morgen werden unseren Alltag
+            in vielen Bereichen erleichtern und verbessern.
+          </p>
+          <p>
+            Ob im Beruf, Studium, als Selbstständiger oder als Hobby.
+            Mit dem Wissen der Online-Kurse bist du für die Zukunft
+            bestens aufgestellt.
+
+          </p>
+          <button class="card__btn rounded-pill py-lg-3 py-2 mx-md-3 px-lg-5 px-3 px-md-3  my-4 d-none d-sm-block" type="submit">
+            Jetzt loslegen!
+          </button>
+        </div>
+
+        <div class="col-md-6 order-2 Plattformunabhängig__image mb-lg-5 ps-lg-4" style=" margin-top: 10px;">
+          <img class="img-fluid w-100" src="./assects/images/Group 141 (3).png" alt="">
+          <button class="card__btn rounded-pill py-2 py-lg-3 mx-md-4 px-md-3 px-3 my-3  d-sm-none " type="submit">
+            Jetzt loslegen!
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- rating section -->
+  <section class="our__ratings">
+    <div class="container px-4">
+      <div class="row rating__section mb-4">
+        <div class="col-11">
+          <h3 class="text-center align-items-center">Unsere Teilnehmer lernen die Fähigkeiten, die sie <br> benötigen,
+            um ihre Ideen in die Tat umzusetzen!</h3>
+        </div>
+      </div>
+      <!--rating card1 -->
+      <div class="row rating__cards mb-lg-5 mb-4 ms-2">
+        <div class=" col-12   col-sm-6 col-md-8 border-lg-rounded card">
+          <div class="ms-md-5 mt-md-4 ">
+            <hr class="  nobrakpoint-hr ">
+            <div class="card__content mb-lg-5">
+              <p style="font-size: 11px; color: #074051">"Durch die Hilfe von nobreakpoints konnte ich mein Ziel eines eigenen Spieles
+                verwirklichen. Das Spiel ist - meiner Meinung nach - sehr gut geworden, aufgrund der hilfreichen und
+                guten Tipps/Hinweise. Nur zu empfehlen!"</p>
+            </div>
+            <div class=" w-100 d-flex justify-content-between mt-lg-5 mb-lg-4 px-3  ">
+              <div class="w-100">
+                <h4 style="font-size: 12px; color: #074051;">Andreas</h3>
+                  <h5 style="font-size: 10px; color: #074051;">Hobby-Entwickler
+                </h4>
+              </div>
+              <div class="w-100 ratings__stars">
+                <img class="img-fluid w-50" src="./assects/images/ratings-stars.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-1">
+        </div>
+      </div>
+      <!-- rating 2nd card -->
+      <div class="row mb-lg-5 mb-4  justify-content-lg-end justify-content-md-center ">
+        <div class="col-sm-2 col-0 "></div>
+        <div class=" col-12  col-sm-6 col-md-8   card__reating2  "
+          style="margin-left: 80px; padding-right: 0px !important; margin-right: 0px !important;">
+          <div class="rounded card ">
+            <div class="mt-md-4 ms-md-5 ps-1">
+              <hr class="  nobrakpoint-hr ">
+              <div class="card__content2 me-md-4 px-3  mb-lg-5">
+                <p style="font-size: 11px; color: #074051;">"Zu sagen, dass du die besten deutschsprachigen Unity-Tutorials machst, wäre
+                  falsch. Denn selbst auf Englisch gibt es kaum bessere. 🙂 Ganz großes Kino! Vielen Dank für deine Mühe
+                  und deinen Einsatz für uns."</p>
+              </div>
+              <div class="d-flex justify-content-between my-lg-3  me-md-4 w-100  px-3  card__reating2-content ">
+                <div class="w-100">
+                  <h4 style="font-size: 12px; color: #074051;">Tobias</h3>
+                    <h5 style="font-size: 10px; color: #074051;">SW-Entwickler
+                  </h4>
+                </div>
+                <div class="w-100 ratings__stars">
+                  <img class="img-fluid w-50" src="./assects/images/ratings-stars.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--rating card 3 -->
+      <div class="row rating__cards mb-lg-4 mb-3 ms-2">
+        <div class=" col-12  col-sm-6 col-md-8  rounded card">
+          <div class="ms-md-5 mt-md-4 ">
+            <hr class="  nobrakpoint-hr ">
+            <div class="card__content mb-lg-5">
+              <p style="font-size: 11px; color: #074051;" class="pe-4">"Ich möchte dir ein großes Lob aussprechen, da ich diese Tutorial-Serie
+                besonders interessant finde. Danke für deinen tollen Videos und mach weiter so! 🙂"</p>
+            </div>
+            <div class=" w-100 d-flex justify-content-between mt-lg-5 mb-lg-4 px-3">
+              <div class="w-100">
+                <h4 style="font-size: 12px; color: #074051;">Jasraj</h3>
+                  <h5 style="font-size: 10px; color: #074051;">VR-Entwickler
+                </h4>
+              </div>
+              <div class="w-100 ratings__stars">
+                <img class="img-fluid w-50" src="./assects/images/ratings-stars.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2  col-1">
+        </div>
+      </div>
+      <div class="w-100 d-flex justify-content-center align-items-center mb-lg-5 mb-3 ">
+        <button class=" card__btn rounded-pill py-lg-3 py-2 mx-md-3 px-md-3 px-lg-5 px-3 my-3 border-0 my-3" type="submit"
+          style="background-color: #01B598; display: flex; justify-content: center; color: white; font-weight: 600; font-family: Open Sans;">
+          Jetzt loslegen!
+        </button>
+      </div>
+  </section>
+
+
+  <!-- Nobreakpoints Blog section -->
+  <section class="Nobreakpoints">
+    <div class="container px-4">
+
+      <div class="row mb-md-4 mb-3 ">
+        <div class="col-12   mb-md-2 heading">
+          <h3>Nobreakpoints Blog</h3>
+        </div>
+      </div>
+      <!-- Nobreakpoints 1st  -->
+      <div class="d-md-flex mb-md-5 w-100 align-items-center align-items-md-start">
+        <div
+          class="  Nobreakpoints__content d-flex  flex-wrap flex-column flex-md-row align-items-center align-items-md-start">
+          <img class="img-fluid  pe-lg-2 w-75 mb-3 " src="./assects/images/laptop.png" alt="">
+          <div class=" px-3  ps-lg-4 Nobreakpoints__para w-100">
+            <h4>Versionskontrolle mit GitHub in Unity</h4>
+            <p class="mb-0 mb-lg-3">Dein Unity Projekt ist lokal auf deinem Computer
+              gespeichert. Alle Inhalte werden im Projektordner
+              gesichert und eine Verwaltung auf Basis von Versionen...
+              Weiterlesen...</p>
+            <span style="color: #01B598;">Weiterlesen...</span>
+          </div>
+
+        </div>
+        <div class="w-25"></div>
+      </div>
+      <!--Nobreakpoints 2nd -->
+      <div class=" d-md-flex mb-3 mb-md-5 w-100 align-items-center align-items-md-end">
+        <div class="" style="width: 40%;"></div>
+        <div
+          class="d-flex Nobreakpoints__content justify-content-lg-end justify-content-md-center flex-wrap flex-column flex-md-row align-items-center align-items-md-end ">
+          <img class="img-fluid w-75 mb-3 order-sm-1 order-1 order-lg-2 ps-lg-2" src="./assects/images/laptop.png" alt="">
+          <div class=" px-3 Nobreakpoints__para w-100 order-sm-2 order-1 order-lg-1  pe-lg-4">
+            <h4>Versionskontrolle mit GitHub in Unity</h4>
+            <p class="mb-0 mb-lg-3">Dein Unity Projekt ist lokal auf deinem Computer
+              gespeichert. Alle Inhalte werden im Projektordner
+              gesichert und eine Verwaltung auf Basis von Versionen...
+              Weiterlesen...</p>
+            <span style="color: #01B598;">Weiterlesen...</span>
+          </div>
+
+        </div>
+
+      </div>
+      <!--Nobreakpoints 3rd -->
+      <div class="d-md-flex mb-md-5 w-100 align-items-center align-items-md-start">
+        <div
+          class="  Nobreakpoints__content d-flex  flex-wrap flex-column flex-md-row align-items-center align-items-md-start  mb-4 mb-lg-5 pb-4">
+          <img class="img-fluid w-75 mb-3 pe-lg-2 " src="./assects/images/laptop.png" alt="" >
+          <div class=" px-3  ps-lg-4 Nobreakpoints__para w-100">
+            <h4>Versionskontrolle mit GitHub in Unity</h4>
+            <p class="mb-0 mb-lg-3">Dein Unity Projekt ist lokal auf deinem Computer
+              gespeichert. Alle Inhalte werden im Projektordner
+              gesichert und eine Verwaltung auf Basis von Versionen...
+              Weiterlesen...</p>
+            <span style="color: #01B598;">Weiterlesen...</span>
+          </div>
+
+        </div>
+        <div class="w-25"></div>
+      </div>
+  </section>
+  <!-- Bist Du bereit deine eigenen section -->
+  <section class="Plattformunabhängig1 second-last " style=" margin-bottom: 20px;">
+    <div class="container px-4 align-items-center Plattformunabhängig1-container ">
+      <div class="row my-lg-5">
+        <h3 class="d-md-none mb-3">Bist Du bereit deine eigenen
+          Anwendungen zu erstellen?.</h3>
+        <div class="col-md-6  Plattformunabhängig__image mb-lg-5 mb-3 padding-right-comunity">
+          <img class="img-fluid w-100 " src="./assects/images/last__img.png" alt="">
+        </div>
+        <div class="col-md-6 community1 padding-left-comunity">
+
+          <h3 class="d-none d-sm-block">Bist Du bereit deine eigenen
+            Anwendungen zu erstellen?.</h3>
+
+          <p class="para mb-lg-4">Teste jetzt alle Online-Kurse auf der Lernplattform von <br>
+            nobreakpoints und erstelle deine eigenen 3D, Virtual oder <br>
+            Augmented Reality Anwendungen.
+          </p>
+          <div class="d-flex justify-content-center  d-block">
+          <button class=" card__btn rounded-pill py-lg-3 py-2 mx-md-3 px-md-3 px-lg-5 px-3  border-0 my-lg-3" type="submit"
+            style="background-color: #01B598; display: flex; justify-content: center; color: white; font-weight: 600; font-family: Open Sans; ">
+            Jetzt loslegen!
+          </button>
+        </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- footer section -->
+
+  <footer class="footer">
+    <div class="container px-4 ">
+      <div class="row w-100 pt-lg-5 text-center text-lg-start mb-lg-5">
+        <div class="col-sm-3 col-4 footer__content text-start">
+          <h3 style="color: white; font-size: 11px;"  class="mb-3">Unternehmen</h3>
+          <li  style="list-style: none; text-decoration: none;">
+            <a href="" style="color: white ; text-decoration: none; font-size: 10px; padding-bottom: 6px;">Impressum</a>
+          </li>
+          <li  style="list-style: none; text-decoration: none;">
+            <a href="" style="color: white ; text-decoration: none; font-size: 10px; padding-bottom: 6px;">About</a>
+          </li>
+          <li  style="list-style: none; text-decoration: none;">
+            <a href="" style="color: white ; text-decoration: none; font-size: 10px; padding-bottom: 6px;">Blog</a>
+          </li>
+          <li  style="list-style: none; text-decoration: none;">
+            <a href="" style="color: white ; text-decoration: none; font-size: 10px; padding-bottom: 6px;">Kontakt</a>
+          </li>
+
+        </div>
+        <div class="col-sm-3 col-4  footer__content text-start">
+          <h3 style="color: white; font-size: 11px;"  class="mb-3">Produkt</h3>
+          <li  style="list-style: none; text-decoration: none; ">
+            <a href="" style="color: white ; text-decoration: none; font-size: 10px; padding-bottom: 6px;">Kurse</a>
+          </li>
+          <li  style="list-style: none; text-decoration: none;">
+            <a href="" style="color: white ; text-decoration: none; font-size: 10px; padding-bottom: 6px;">Preise</a>
+          </li>
+          <li  style="list-style: none; text-decoration: none;">
+            <a href="" style="color: white ; text-decoration: none; font-size: 10px; padding-bottom: 6px;">Login</a>
+          </li>
+        </div>
+        <div class="col-sm-3 col-4 footer__content" text-start>
+          <h3 style="color: white; font-size: 11px;" class="mb-3">Folge uns</h3>
+          <a href="."> <img class="img-fluid  " src="./assects/logos/facebook.png" alt=""
+              style=" width: 12px;"></a>
+          <a href=""> <img class="img-fluid  ms-sm-3" src="./assects/logos/linkdin.png" alt=""
+              style=" width: 12px;"></a>
+          <a href=""> <img class="img-fluid  ms-sm-3" src="./assects/logos/youtube.png" alt=""
+              style=" width: 12px;"></a>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-12">
+          <hr style="background-color: #01B598; border: 2px solid #01B598;">
+        </div>
+      </div>
+      <div class="row text-center text-sm-start w-100">
+        <div class="col-12 col-sm-8 copyright">
+          <span style="color: white;"> <span><img class="img-fluid"
+            style="width: 20px;" src="./assects/images/ph_copyright-thin.png" alt=""></span> 2022 nobreakpoints |Education made with <span><img class="img-fluid"
+                style="width: 20px;" src="./assects/logos/heart.png" alt=""></span> in Bavaria</span>
+        </div>
+        <div class="col-sm-4  col-12 copyright mb-4 px-0 text-md-end">
+          <span style="padding-left: 14px; color: white;">Datenschutz</span>
+          <span style="padding-left: 14px; color: white;">AGB</span>
+          <span style="padding-left: 14px; color: white;">Widerruf</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+  <script>
+
+    $(document).ready(function () {
+      $('.slider').slick({
+        centerMode: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: true,
+        centerPadding: '30px',
+        slidesToShow: 3,
+        speed: 1500,
+        index: 2,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
+    });
+  </script>
+
+  <!-- slick -->
+
+</body>
+
+</html>

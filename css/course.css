@@ -1,0 +1,335 @@
+.para-font {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.heading-fonts {
+  font-family: "Montserrat", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 46px;
+  text-align: left;
+}
+.color {
+  color: #074051;
+}
+/* show case area */
+.show-case-side-menu {
+  background: linear-gradient(
+    168.32deg,
+    rgba(255, 255, 255, 0.1) 23.5%,
+    rgba(255, 255, 255, 0) 91.43%
+  );
+  border-radius: 30.4671px;
+}
+.show_case-heading h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 51px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.all_videos .videos span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+.all_videos .videos span img {
+  width: 30px;
+  height: 30px;
+}
+
+.online_course {
+  background-image: url(../assects/course/online-course-bg.png);
+  background-size: cover;
+  margin-top: 100px;
+}
+.course-image {
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.about__me {
+  background-image: url(../assects/course/second-last\ bg.png) !important;
+  background-size: cover;
+  background-position: center;
+}
+.slider-section {
+  background-image: url(../assects/course/tutorials-background.png);
+  background-size: cover;
+  background-position: center;
+}
+/* media queries */
+
+@media (min-width: 1024px) {
+  .all_videos {
+    background-image: url(../assects/course/video-section-bg.png);
+    /* background-position:13% 100%; */
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+  }
+  .video-list {
+    box-shadow: 0px 6px 4px rgba(222, 219, 219, 0.25);
+    border-radius: 5px;
+  }
+  .all_videos .videos span {
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .course-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Kurse_heading {
+    padding-top: 60px !important;
+  }
+  .course-list strong {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    font-family: "Montserrat", sans-serif;
+  }
+  .online_course .course-image img {
+    width: 269px;
+    height: 266px;
+  }
+  .course-cards {
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .course-cards img {
+    width: 60px;
+    height: 60px;
+    top: -18%;
+    left: 32%;
+  }
+  .Kurs h3 {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 58px;
+  }
+  .kurz-para p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+  }
+  .card__section1 {
+    padding-top: 50px;
+  }
+  .about__me .content__aboutme {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* .showCase__para{
+    color: ;
+  } */
+  .all_videos {
+    background-image: url(../assects/course/image-for-mobile.png);
+    /* background-position:13% 100%; */
+    background-size: cover;
+    margin-top: 50px;
+  }
+  .course-list {
+    background-color: #074051 !important;
+    display: flex;
+    justify-content: space-between;
+  }
+  .course-list strong {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: white;
+    line-height: 14px;
+    font-size: 14px;
+  }
+  .all_videos hr {
+    margin-bottom: 5px !important;
+  }
+
+  .embed-responsive iframe {
+    width: 450px;
+    margin-bottom: 20px;
+  }
+  .embed-responsive {
+    display: flex;
+    justify-content: center;
+  }
+  .show_case-heading h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 51px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  .all_videos .videos span {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 14px;
+  }
+  .all_videos .videos span img {
+    width: 20px !important;
+    height: 20px !important;
+  }
+  .Kurs h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .course-cards {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .course-cards img {
+    width: 45px;
+    height: 45px;
+    top: -18%;
+    left: 32%;
+  }
+  .about__me .content__aboutme {
+    padding-top: 20px !important;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 576px) {
+  .embed-responsive iframe {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 290px;
+    height: 180px;
+  }
+  .embed-responsive {
+    display: flex;
+    justify-content: center;
+  }
+  .show_case-heading h3 {
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+  }
+  .all_videos .videos span {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+  }
+  .online-course-heading h3 {
+    font-family: "Open Sans", sans-serif;
+
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .course-image {
+    border-radius: 17.049px;
+  }
+
+  .online_course .course-image p {
+    font-size: 15px;
+  }
+  .online_course img {
+    width: 170px;
+    height: 170px;
+
+    display: flex;
+    margin: 20px auto;
+  }
+  .Kurs h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .Kurzgesagt .heading {
+    margin-bottom: 30px !important;
+  }
+
+  .heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px !important;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .course-cards p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #074051;
+  }
+  .course-cards img {
+    width: 38px;
+    height: 38px;
+    top: -30%;
+    left: 35%;
+  }
+  .kurz {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+  }
+  .kurz-para p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .kurz__list li {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .about__me {
+    background-image: url(../assects/course/second-last\ bg.png) !important;
+    background-size: cover;
+  }
+}

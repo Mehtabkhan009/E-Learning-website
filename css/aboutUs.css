@@ -1,0 +1,135 @@
+.para-font {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.heading-fonts {
+  font-family: "Montserrat", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 46px;
+  text-align: left;
+}
+
+.micheal-images{
+  background-image: url(../assects/aboutUs-images/michealSection-bg-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (min-width: 1024px) {
+  .aboutUs-content h4 {
+    font: 38px !important;
+  }
+  .unity__section img {
+    width: 690px;
+  }
+  .unity-content {
+    width: 600px;
+  }
+  .micheal-and-micheal img {
+    width: 420px;
+  }
+  .micheal-and-micheal h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .micheal-and-micheal .and {
+    font-family: "Montserrat", sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+  }
+  .micheal-images h4{
+    font-family: "Montserrat", sans-serif;
+font-size: 38px;
+font-weight: 600;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+}
+@media (max-width: 992px) {
+  .aboutUs-content h3 {
+    text-align: center;
+  }
+  .aboutUs-content p {
+    font: 18px !important;
+    color: #67d3c1 !important;
+  }
+  .unity__section .unity {
+    margin-bottom: 0px !important;
+}
+.unity-content{
+  margin-top: 10px !important;
+}
+  .micheal-and-micheal img {
+    width: 220px;
+  }
+  .micheal-and-micheal h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+  }
+  .micheal-and-micheal .and {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+  }
+  .micheal-images h4{
+    font-family: "Montserrat", sans-serif;
+font-size: 28px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0em;
+
+  }
+}
+@media (max-width: 576px) {
+  .aboutUs-content p {
+    font: 16px !important;
+  }
+  .aboutUs-content h4 {
+    font-size: 22px !important;
+    padding-bottom: 40px;
+  }
+  .micheal-and-micheal img {
+    width: 180px;
+  }
+  .micheal-and-micheal h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+  }
+  .micheal-and-micheal .and {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+  }
+  .micheal-images h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    
+  }
+  
+}
